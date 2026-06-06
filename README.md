@@ -299,3 +299,44 @@ React Native performance skills based on The Ultimate Guide to React Native Opti
 [Callstack](https://www.callstack.com/) is a group of React and React Native experts. Contact us at [hello@callstack.com](mailto:hello@callstack.com) if you need help with performance optimization or just want to say hi!
 
 Like what we do? ⚛️ [Join the Callstack team](https://www.callstack.com/careers) and work on amazing React Native projects!
+
+## 🙋 Frequently Asked Questions
+
+### What is Azure Agent Skills?
+
+Azure Agent Skills is a curated collection of **193 high-quality agentic skills** specifically designed for Azure cloud development. These skills follow the [Agent Skills open standard](https://agentskills.io/) and work seamlessly with modern AI coding assistants.
+
+| Category | Skills | Examples |
+|----------|--------|----------|
+| ☁️ **Compute** | 13 | Azure App Service, Azure Functions |
+| 🔗 **Integration** | 16 | Azure API Management, Logic Apps |
+| 📊 **Data & Analytics** | 19 | Azure Cosmos DB, Data Factory |
+| 🤖 **AI & ML** | 23 | Azure AI Services, Cognitive Search |
+| 🔒 **Security** | 19 | Azure AD B2C, Key Vault |
+| 🌐 **Networking** | 23 | Application Gateway, ExpressRoute |
+| 🏗️ **Infrastructure** | 52 | Azure Arc, AKS |
+| 💰 **Management** | 39 | Azure Advisor, Automation |
+
+### Supported AI Assistants
+
+| Assistant | Skills Path | Invocation |
+|-----------|-------------|------------|
+| Claude Code | `.claude/skills/` | `/skill-name` |
+| Gemini CLI | `.gemini/skills/` | Natural language |
+| Codex CLI | `.codex/skills/` | Natural language |
+| GitHub Copilot | `.github/skills/` | `@workspace` |
+| Cursor | `.cursor/skills/` | `@skill-name` |
+
+### Quick Installation
+
+```bash
+git clone https://github.com/MicrosoftDocs/Agent-Skills.git
+cp -r Agent-Skills/skills/ ~/.claude/skills/
+```
+
+### License
+
+Dual license: **CC BY 4.0** (content) + **MIT** (code). Completely free to use.
+
+---
+
